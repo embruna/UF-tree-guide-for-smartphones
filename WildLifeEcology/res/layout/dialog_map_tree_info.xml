@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="#228B22" android:layout_height="wrap_content" android:layout_width="wrap_content">
+<HorizontalScrollView android:id="@+id/HorizontalScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollbars="horizontal" android:scrollbarAlwaysDrawHorizontalTrack="true" android:scrollbarAlwaysDrawVerticalTrack="true"><TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center_horizontal" android:background="#FFFFFF" android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarAlwaysDrawHorizontalTrack="true" android:layout_margin="2sp">
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"><TextView android:layout_height="wrap_content" android:id="@+id/TextView_Description" android:text="@string/NoData" android:textColor="#696969" android:layout_width="wrap_content" android:paddingLeft="5sp" android:paddingBottom="5sp" android:maxHeight="200sp" android:maxWidth="200sp"></TextView>
+</TableRow>
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button_TreeInfo" android:text="@string/TreeDetails" android:gravity="center" android:background="@drawable/my_button_treeinfo" android:textColor="#FFFFFF"></Button>
+</TableRow>
+</TableLayout></HorizontalScrollView>
+
+
+</LinearLayout>

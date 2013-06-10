@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/SearchTrees"
+  		  android:icon="@drawable/browsetree"
+  		  android:title="@string/Browse"
+           />
+           <!-- 
+  <item android:id="@+id/BrowseTrees"
+  		android:icon="@drawable/browsetree" 
+  		android:title="@string/Browse">
+        <menu> 
+	        <group android:checkableBehavior="single">
+	            <item android:id="@+id/Family"
+	                  android:title="@string/Family" />
+	            <item android:id="@+id/Interaction"
+	                  android:title="@string/Interaction" />
+	            <item android:id="@+id/Habitat"
+	                  android:title="@string/Habitat" />
+	        </group>
+        </menu>
+  </item> -->
+  <item android:id="@+id/Map"
+  		  android:icon="@drawable/map"
+  		  android:titleCondensed="@string/Map"
+           />        
+  <item android:id="@+id/Glossary"
+  		  android:icon="@drawable/glossary"
+  		  android:title="@string/Glossary"
+           />
+  <item android:id="@+id/Quiz"
+  		  android:icon="@drawable/quiz"
+  		  android:title="@string/Quiz"
+           />                                                 
+</menu>
+<!-- android:icon="@drawable/ic_new_game" -->
+<!-- android:title="@string/SearchTrees" -->
+<!-- group android:checkableBehavior="single" -->

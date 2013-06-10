@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_horizontal" android:background="#FFFFFF"><ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"><HorizontalScrollView android:id="@+id/HorizontalScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent"><TableLayout android:id="@+id/TableLayout02" android:layout_width="fill_parent" android:layout_height="fill_parent"><TableRow android:id="@+id/TableRow02" android:layout_height="wrap_content" android:paddingBottom="10sp" android:paddingTop="10sp" android:layout_width="match_parent" android:gravity="center"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageView_UF" android:src="@drawable/uf"></ImageView><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="2" android:ellipsize="end" android:textColor="#FF4A00" android:text="CAMPUS TREE GUIDE" android:inputType="textMultiLine" android:width="150sp" android:gravity="left" android:textStyle="bold" android:textSize="25sp"></TextView>
+
+
+</TableRow><TableRow android:id="@+id/TableRow05" android:layout_height="wrap_content" android:background="#0021A5" android:layout_width="fill_parent">
+
+<TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:textSize="5dip" android:layout_width="fill_parent"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:paddingTop="30dip"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button_BrowseTrees" android:text="@string/BrowseTrees" android:typeface="normal" android:layout_gravity="center_horizontal" android:textStyle="bold" android:gravity="center" android:layout_margin="1sp" android:background="#FFFFFF" android:textColor="@color/textcolor" android:textSize="20sp"></Button>
+
+</TableRow><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:id="@+id/Button_TreeMaps" android:text="@string/TreeMaps" android:gravity="center" android:layout_margin="1sp" android:textColor="@color/textcolor" android:background="#FFFFFF" android:textSize="20sp"></Button>
+</TableRow><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:id="@+id/Button_Glossory" android:text="@string/Glossary" android:gravity="center" android:layout_margin="1sp" android:textColor="@color/textcolor" android:background="#FFFFFF" android:textSize="20sp"></Button>
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:gravity="center" android:layout_margin="1sp" android:id="@+id/Button_Exercises" android:text="@string/Exercises" android:background="#FFFFFF" android:textColor="@color/textcolor" android:textSize="20sp"></Button>
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Quiz" android:textStyle="bold" android:layout_margin="1sp" android:id="@+id/Button_Quiz" android:textColor="@color/textcolor" android:background="#FFFFFF" android:textSize="20sp"></Button>
+</TableRow><TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:textColor="@color/textcolor" android:text="@string/References" android:textSize="20sp" android:textStyle="bold" android:id="@+id/Button_References"></Button>
+</TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:id="@+id/TableRow07"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:textColor="@color/textcolor" android:textSize="20sp" android:textStyle="bold" android:id="@+id/Button_About" android:text="@string/About"></Button>
+</TableRow></TableLayout></HorizontalScrollView>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

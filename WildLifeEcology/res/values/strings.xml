@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minSDK">1.0</string>
+    <string name="app_name">UF Campus Tree Guide</string>
+    <string name="username">User Name </string>
+    <string name="password">Password </string>
+    <string name="Login">Login </string>
+    <string name="Glossary"> Glossary </string>
+    <string name="Exercises"> Exercises </string>
+    <string name="Quiz"> Quiz </string>
+    <string name="Family"> By Family </string>
+    <string name="Interaction"> By Interaction </string>
+    <string name="Habitat"> By Habitat </string>
+    <string name="Browse"> Browse </string>
+    <string name="Search"> Search </string>
+	<string name="SearchTrees"> Search Trees </string>
+    <string name="BrowseTrees"> Browse Trees </string>
+    <string name="TreeMaps"> Tree Maps </string>
+    <string name="Map"> Map </string>
+    <string name="SearchInstruction"> Search </string>
+    <string name="TreeInfo"> Tree Info </string>
+    <string name="Root"> Root </string>
+    <string name="Stem"> Stem </string>
+    <string name="Leaves"> Leaves </string>
+    <string name="Flowers"> Flowers </string>
+    <string name="Fruits"> Fruits </string>
+    <string name="Photos"> Photos </string>
+    <string name="Index"> Index </string>
+    <string name="TreeDetails"> Details </string>
+    <string name="NoData"> No Data </string>
+    <string name="SearchMap"> Search Map </string>
+    <string name="ByBinomialName"> By Binomial Name </string>
+    <string name="ByCommonName"> By Common Name </string>    
+    <string name="SearchHint"> Binomial Name or Common Name </string>
+    <string name="References"> References </string>
+    <string name="About"> About </string>
+    <string name="Copyright">"<b><u>Copyright:</u></b>"</string>
+    <string name="CopyrightInfo">"This work by Emilio Bruna is licensed under a <a href = "http://creativecommons.org/licenses/by-nc-sa/3.0/"> Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>"</string>
+    <string name="Aim">"<b><u>Aim:</u></b>"</string>
+    <string name="AimInfo">This application teaches users about the tree species that can be found on the campus of the University of Florida in Gainesville. It maps the locations on the UF campus of over 35 species native to the southeastern US, provides pictures of their fruits, flowers, and other key features, and provides information on the interactions of these trees with different species of animals.</string>
+    <string name="Credits">"<b><u>Credits:</u></b>"</string>
+    <string name="CreditsInfo">"<b>Supervisor:</b> Emilio Bruna.<br /> <b>Content and Design:</b> Oscar Gonzalez, Shelly Johnson, Anthony Lau, Fabiane Mundim, Matthew Palumbo, Jennifer Ulrich, Amy Washuta, Andrea Wolf. <br/><b>Programmer:</b> Subramaniam Arunachalam"</string>
+    <string name="Version">"<b><u>Version:</u></b>"</string>
+    <string name="VersionInfo">1.0.0</string>
+</resources>

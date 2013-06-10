@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+android:id="@+id/RelativeLayout01" 
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android">
+<com.google.android.maps.MapView        
+android:id="@+id/mapview"        
+android:layout_width="fill_parent"        
+android:layout_height="fill_parent"        
+android:clickable="true"
+
+android:apiKey="0_cXPwdTGZzNw496vB69O3BfYkkcGlP3WSpuNWQ" />
+</RelativeLayout>
+<!-- SIGN BUILD wis5521-->        
+<!-- android:apiKey="0_cXPwdTGZzNw496vB69O3BfYkkcGlP3WSpuNWQ"  -->
+<!-- 32:24:A6:64:E1:9F:C5:AA:56:DD:3F:E0:F6:EB:A2:9A -->
+<!-- CURRENT DEBUG -->
+<!-- android:apiKey="0BNlKI2UtJe336R2JgTmsM3nE53CXx4cIDm4GpQ" -->

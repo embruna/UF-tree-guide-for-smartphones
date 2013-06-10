@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:background="#FFFFFF" android:layout_height="fill_parent">
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="match_parent" android:layout_width="match_parent"><HorizontalScrollView android:id="@+id/HorizontalScrollView01" android:layout_height="match_parent" android:layout_width="match_parent"><TableLayout android:id="@+id/TableLayout01" android:gravity="center_horizontal" android:background="#FFFFFF" android:layout_height="fill_parent" android:layout_width="match_parent" android:layout_gravity="center_horizontal"><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:gravity="left"><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quiz"></ImageView><TextView android:layout_height="wrap_content" android:id="@+id/TextView_Quiz" android:text="@string/Quiz" style="@android:style/TextAppearance.Large" android:textColor="@color/textcolor" android:textStyle="bold" android:textSize="35sp" android:layout_width="match_parent" android:gravity="left"></TextView>
+
+</TableRow>
+<TableRow android:id="@+id/TableRow03" android:layout_height="wrap_content" android:background="#FF4A00" android:layout_width="fill_parent"><TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:textSize="2sp" android:layout_width="match_parent"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><RadioGroup android:layout_height="wrap_content" android:gravity="left" android:id="@+id/RadioGroup_Topics" android:layout_width="fill_parent"></RadioGroup>
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/TextView_Score" android:paddingTop="50sp" android:gravity="left" android:textColor="@color/textcolor" android:textSize="20sp"></TextView>
+</TableRow>
+
+
+</TableLayout></HorizontalScrollView>
+
+</ScrollView>
+
+</LinearLayout>

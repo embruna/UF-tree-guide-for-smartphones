@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:label="@string/Search"
+	android:hint="@string/SearchHint"
+	android:searchMode = "queryRewriteFromText"
+	android:searchSuggestAuthority="com.Ecology.NamesContentProvider"
+	android:searchSuggestIntentData="content://com.Ecology.NamesContentProvider/names"
+	android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestThreshold="1"
+	 >
+</searchable>
+<!-- android:icon="@drawable/tree" -->
