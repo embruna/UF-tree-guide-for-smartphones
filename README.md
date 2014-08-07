@@ -1,7 +1,7 @@
 UF-tree-guide-for-smartphones
 =============================
 
-Guide to threes of UF campus for Android OS smartphones
+Guide to trees of UF campus for Android OS smartphones
 
 This files and software were used to create the smartphone guide to trees of the UF campus described at http://brunalab.org/uf-campus-tree-guide-app/. The download link for the app is here: https://play.google.com/store/apps/details?id=com.Ecology. The code was written by Subramaniam Arunachalam, the content was prepared by graduate students in a plant-animal interactions class, and the project was supervised by Emilio Bruna.
 
